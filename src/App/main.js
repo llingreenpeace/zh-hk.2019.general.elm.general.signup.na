@@ -83,12 +83,12 @@ var pageInit = function(){
             const phoneReg4 = new RegExp(/(886\d{1,2}\d{6,8})$/).test(value);
             const phoneReg5 = new RegExp(/(886\d{1,2}-\d{7,9})$/).test(value);
             
-            console.log(value)
-            console.log(phoneReg1)
-            console.log(phoneReg2)
-            console.log(phoneReg3)
-            console.log(phoneReg4)
-            console.log(phoneReg5)
+            // console.log(value)
+            // console.log(phoneReg1)
+            // console.log(phoneReg2)
+            // console.log(phoneReg3)
+            // console.log(phoneReg4)
+            // console.log(phoneReg5)
 
             if ($('#center_phone').val()) {
                 return (phoneReg1 || phoneReg2 || phoneReg3 || phoneReg4 || phoneReg5)
