@@ -1475,7 +1475,7 @@ select {
 
 /* line 327, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
 #principal_form.form form#center_sign-form fieldset p.phone #center_countrycode {
-    width: 20%;
+    width: 29%;
     padding-left: 4px;
     padding-right: 4px;
     /* background: url('../images/plus.svg') no-repeat -4px center !important; */
@@ -1484,7 +1484,7 @@ select {
 
 /* line 331, /Users/lattecreative/RubymineProjects/GreenPeace-SavetheArctic/source/css/partials/_320grid.sass */
 #principal_form.form form#center_sign-form fieldset p.phone #center_phone {
-    width: 100%;
+    width: 70%;
     float: right;
 }
 

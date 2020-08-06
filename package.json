@@ -1,15 +1,16 @@
 {
-  "name": "zh-TW.2020.polar.savethearctic.signup",
-  "homepage": "https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.polar.savethearctic/",
+  "name": "zh-HK.2020.polar.savethearctic.signup",
+  "homepage": "https://change.greenpeace.org.tw/2020/petition/zh-HK.2020.polar.savethearctic.mc/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "email-autocomplete": "^0.2.0",
     "gpea-npm-en-uploader": "greenpeace/gpea-npm-en-uploader",
-    "js-email-autocomplete": "^1.0.3"
+    "js-email-autocomplete": "^1.0.3",
+    "mailcheck": "^1.1.1"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
@@ -17,10 +18,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:en": "PUBLIC_URL=https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.polar.savethearctic react-scripts build",
+    "build:en": "set PUBLIC_URL=https://change.greenpeace.org.tw/2020/petition/zh-HK.2020.polar.savethearctic.mc&&npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn run build:en && gpea-npm-en-uploader"
+    "deploy": "yarn run build:en && node mc-deploy.js"
   },
   "eslintConfig": {
     "extends": "react-app"
