@@ -154,6 +154,8 @@ var pageInit = function(){
 			} else {
 			 	$('#mc-form [name="MobilePhone"]').val($('#center_phone').val());
 			}
+			//console.log($('#mc-form [name="MobileCountryCode"]').val());
+			//console.log($('#mc-form [name="MobilePhone"]').val());
 			$('#mc-form [name="Birthdate"]').val($('#center_yearofbirth').val());
 			
 			$('#mc-form [name="OptIn"]').eq(0).prop("checked", $('#center_rememberme').prop('checked')); 
@@ -180,7 +182,7 @@ var pageInit = function(){
 			})
 			.then(response => response.json())
 			.then(response => {				
-				console.log('fetch response', response);
+				//console.log('fetch response', response);
 				if (response) {
 					if (response.Supporter) { // ok, go to next page
 						sendPetitionTracking("2020-savethearctic");

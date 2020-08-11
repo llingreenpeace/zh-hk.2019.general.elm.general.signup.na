@@ -83,7 +83,6 @@ let formTmpl =
 	<input placeholder="FirstName" name="FirstName" type="text" value="">
 	<input placeholder="LastName" name="LastName" type="text" value="">
 	<input placeholder="Email" name="Email" type="email" value="">
-	<input placeholder="MobileCountryCode" name="MobileCountryCode" type="text">
 	<input placeholder="MobileCountryCode" name="MobileCountryCode" type="text" value="852">
 	<input placeholder="MobilePhone" name="MobilePhone" type="tel" value="">
 	<input placeholder="Birthdate" name="Birthdate" type="text" value="">
